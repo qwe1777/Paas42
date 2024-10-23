@@ -6,7 +6,7 @@ services:
               context: ./
               dockerfile: Dockerfile
         volumes:
-              - volume1:/home/App42PaaS-Java-MySQL-Sample/target
+              - volume1:/home/Paas42/target
     deploy:
         image: dockertn3/tomcat-alpine-msfonts:latest
         ports:

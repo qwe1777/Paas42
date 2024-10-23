@@ -12,7 +12,7 @@ services:
         ports:
               - '8080:8080'
         volumes:
-              - volume1:/var/lib/tomcat9/webapps
+              - volume1:/usr/local/tomcat/webapps
 
     mysql:
         image:  mysql/mysql-server

@@ -1,3 +1,4 @@
 FROM rapidfort/tomcat9-openjdk11-ib
 WORKDIR usr/local/tomcat
+RUN chmod 777 /usr/local/tomcat
 RUN mkdir ROOT

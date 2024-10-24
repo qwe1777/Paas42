@@ -11,6 +11,7 @@ services:
          build:
               context: ./
               dockerfile: Dockerfile3
+         ports:
               - '8080:8080'
         volumes:
               - volume1:/usr/local/tomcat/webapps

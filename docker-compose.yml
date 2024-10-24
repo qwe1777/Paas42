@@ -8,8 +8,8 @@ services:
         volumes:
               - volume1:/home/Paas42/target
     deploy:
-        image: rapidfort/tomcat9-openjdk11-ib
-        ports:
+              context: ./
+              dockerfile: Dockerfile3
               - '8080:8080'
         volumes:
               - volume1:/usr/local/tomcat/webapps

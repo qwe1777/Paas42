@@ -17,7 +17,7 @@ services:
               - volume1:/usr/local/tomcat/webapps
 
     mysql:
-        image:  mysql/mysql-server:latest
+        image:  mysql/mysql-server:5.7.22
         ports:
               - '3306:3306'
         environment:

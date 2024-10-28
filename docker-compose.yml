@@ -17,7 +17,7 @@ services:
               - volume1:/usr/local/tomcat/webapps
 
     mysql:
-        image:  mysql:5.7
+        image:  mysql:5.7-debian
         ports:
               - '3306:3306'
         environment:
